@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <h1 id="title">Online classes Survey Form</h1>
+            <p id="description">Thank you for taking the time to answer this survey</p>
+        </header>
+        <form id="survey-form">
+            <label for="name-label" id="name-label">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required/>
+
+            <label for="email-label" id="email-label">Email </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required />
+
+            <label for="number-label" id="number-label">Age <span>(optional)</span></label>
+            <input type="number" name="number" id="number" placeholder="Age" min= "1" max ="100" required/>
+
+             <label for="role">Which option best describes your current role?</label>
+             <select name="role" id="dropdown" required="">
+                <option disabled selected value>Select current role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="preferNo">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label>Do you like your online classes?</label>
+           
+            <div class= "radio-checkboxes">
+                 <label>
+                <input id="no" type="radio" name="like-lasses" value="no">
+               No</label>
+
+                <label>
+                <input id="yes" type="radio" name="like-lasses" value="yes">
+                Yes
+                </label>
+
+                <label>
+                <input id="kind-of" type="radio" name="like-lasses" value="kinf-of">
+               Kind of</label>
+            </div>
+
+            <label>Would you recommend taking online classes to another friend?</label>
+           
+            <div class= "radio-checkboxes">
+                 <label>
+                <input id="def" type="radio" name="recommendation" value="definitely">
+               Definitely</label>
+
+                <label>
+                <input id="maybe" type="radio" name="recommendation" value="maybe">
+                Maybe
+                </label>
+
+                <label>
+                <input id="not-sure" type="radio" name="recommendation" value="not-sure">
+               Not sure</label>
+            </div>
+            
+            <label> What would you like to see improved?  <span>(Check all that apply)</span></label>
+
+            <div class= "radio-checkboxes">
+            <label>
+                <input name="prefer" value="front-end-projects" type="checkbox"/> Front-end Projects
+            </label>
+
+            <label>
+                <input name="prefer" value="back-end-projects" type="checkbox"/> Back-end Projects
+            </label>
+
+            <label>
+                <input name="prefer" value="data-visualization" type="checkbox"/> Data Visualization
+            </label>
+
+            <label>
+                <input name="prefer" value="open-source-community" type="checkbox"/> Open Source Community
+            </label>
+
+            <label>
+                <input name="prefer" value="gitter-help-rooms" type="checkbox"/> Gitter help rooms
+            </label>
+
+            <label>
+                <input name="prefer" value="videos" type="checkbox"/> Videos
+            </label>
+
+            <label>
+                <input name="prefer" value="forum" type="checkbox"/> Forum
+            </label>
+            </div>
+
+            <label>Any comments or suggestions?</label>
+            <textarea name="comment" id="comments" placeholder="Enter your comment here..." ></textarea>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+
+       <footer>Coded and design by Milena Dias</footer>
+    </div>
+    <div id="circle"></div>
+
+    <script type="text/javascript">
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
