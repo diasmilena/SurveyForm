@@ -1,7 +1,7 @@
 # SurveyForm - Formulário de Pesquisa
 
 
-* Projeto feito em um curso de Web Design responsivo na [Instituição Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects)
+* Projeto feito para um curso de Web Design responsivo na [Instituição Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects)
 * Feito para aplicar os conceitos de efeitos de Glassmorphism em CSS.
 * Consiste em uma formulário de pesquisa sobre as aulas onlines aplicadas a variadas escolas por advento da pandemia
 * Deselvolvido em HTML e CSS.
